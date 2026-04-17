@@ -1,0 +1,47 @@
+https://fonts.google<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سمسم TV | المطور أسامة شعيب مكي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #002b1f; /* أخضر ملكي غامق */
+            color: #ffffff;
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .logo-container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .logo-container img {
+            width: 200px; /* ضع هنا لوجو سمسم TV */
+            filter: drop-shadow(0 0 15px #D4AF37);
+        }
+
+        h1 {
+            color: #D4AF37; /* لون ذهبي */
+            font-size: 2.5rem;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .dev-info {
+            font-size: 1.2rem;
+            background: rgba(212, 175, 55, 0.1);
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: 1px solid #D4AF37;
+        }
+
+        /*
